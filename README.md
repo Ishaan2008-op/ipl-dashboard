@@ -116,3 +116,57 @@ st.bar_chart(team_wins)
 - Step 7: Venue analysis → stadium impact on matches.
 - Step 8: Advanced metrics → strike rate, economy rate for deeper cricket insights.
 - Step 9: Streamlit layout → interactive filters for user-driven exploration.
+- 
+
+this is the info of the dataset used
+RangeIndex: 756 entries, 0 to 755
+Data columns (total 18 columns):
+ #   Column           Non-Null Count  Dtype 
+---  ------           --------------  ----- 
+ 0   id               756 non-null    int64 
+ 1   season           756 non-null    int64 
+ 2   city             749 non-null    object
+ 3   date             756 non-null    object
+ 4   team1            756 non-null    object
+ 5   team2            756 non-null    object
+ 6   toss_winner      756 non-null    object
+ 7   toss_decision    756 non-null    object
+ 8   result           756 non-null    object
+ 9   dl_applied       756 non-null    int64
+ 10  winner           752 non-null    object
+ 11  win_by_runs      756 non-null    int64
+ 12  win_by_wickets   756 non-null    int64
+ 13  player_of_match  752 non-null    object
+ 14  venue            756 non-null    object
+ 15  umpire1          754 non-null    object
+ 16  umpire2          754 non-null    object
+ 17  umpire3          119 non-null    object
+dtypes: int64(5), object(13)
+memory usage: 106.4+ KB
+None
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 179078 entries, 0 to 179077
+Data columns (total 21 columns):
+ #   Column            Non-Null Count   Dtype
+---  ------            --------------   -----
+ 0   match_id          179078 non-null  int64
+ 1   inning            179078 non-null  int64
+ 2   batting_team      179078 non-null  object
+ 3   bowling_team      179078 non-null  object
+ 4   over              179078 non-null  int64
+ 5   ball              179078 non-null  int64
+ 6   batsman           179078 non-null  object
+ 7   non_striker       179078 non-null  object
+ 8   bowler            179078 non-null  object
+ 9   is_super_over     179078 non-null  int64
+ 10  wide_runs         179078 non-null  int64
+ 11  bye_runs          179078 non-null  int64
+ 12  legbye_runs       179078 non-null  int64
+ 13  noball_runs       179078 non-null  int64
+ 14  penalty_runs      179078 non-null  int64
+ 15  batsman_runs      179078 non-null  int64
+ 16  extra_runs        179078 non-null  int64
+ 17  total_runs        179078 non-null  int64
+ 18  player_dismissed  8834 non-null    object
+ 19  dismissal_kind    8834 non-null    object
+ 20  fielder           6448 non-null    object
